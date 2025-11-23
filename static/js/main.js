@@ -76,7 +76,7 @@ function initSlideshow(images) {
         slide.className = 'swiper-slide';
         
         const imageElement = document.createElement('img');
-        imageElement.src = `/images/${img.label}`;
+        imageElement.src = img.url || `/images/${img.label}`;
         imageElement.alt = img.label;
         imageElement.loading = "lazy";
         
