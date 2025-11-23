@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.app-layout {
+    display: flex;
+    height: 100%;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #222;
+    border-right: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+#date-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y: auto;
+}
+
+#date-nav a {
+    color: #aaa;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+#date-nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#date-nav a.active {
+    background-color: #007acc;
+    color: #fff;
+}
+
+/* Main Content Styles */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0; /* Fix for Swiper in flexbox */
+}
+
+.swiper {
+    width: 100%;
+    flex: 1;
+    background-color: #000;
+    min-height: 0; /* Important for flex layout */
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.info-panel {
+    width: 100%;
+    height: 200px;
+    background-color: #222;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    border-top: 1px solid #333;
+    overflow-y: auto;
+}
+
+.info-panel h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item .label {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 4px;
+}
+
+.info-item .value {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+}

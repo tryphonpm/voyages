@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyages Slideshow</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="app-layout">
+        <aside class="sidebar">
+            <h3>Dates</h3>
+            <nav id="date-nav">
+                <!-- Links will be inserted here -->
+            </nav>
+        </aside>
+        
+        <main class="content">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+                    <!-- Slides will be inserted here by JS -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="info-panel" id="info-panel">
+                <!-- Info will be updated by JS -->
+                <h2 id="img-label">Chargement...</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="label">Date:</span>
+                        <span class="value" id="img-date">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Heure:</span>
+                        <span class="value" id="img-time">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Lieu:</span>
+                        <span class="value" id="img-location">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Dimensions:</span>
+                        <span class="value" id="img-dims">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Taille:</span>
+                        <span class="value" id="img-size">-</span>
+                    </div>
+                     <div class="info-item">
+                        <span class="label">Résolution:</span>
+                        <span class="value" id="img-res">-</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
+
