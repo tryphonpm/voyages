@@ -1,0 +1,77 @@
+[
+    {
+        "label": "202507_1_IMG_1909_Lres.png",
+        "largeur": 800,
+        "hauteur": 600,
+        "résolution": "71x71 dpi",
+        "taille": "736.96 KB",
+        "position GPS": {
+            "lat": 48.65832777777778,
+            "lon": 2.3033444444444444
+        },
+        "lieu": "Villiers-sur-Orge",
+        "horodatage de création": "2025:07:05 18:07:44",
+        "date": "05/07/2025",
+        "heure": "18:07:44"
+    },
+    {
+        "label": "202507_2_IMG_1914_Lres.png",
+        "largeur": 800,
+        "hauteur": 600,
+        "résolution": "71x71 dpi",
+        "taille": "614.08 KB",
+        "position GPS": {
+            "lat": 48.65832777777778,
+            "lon": 2.3033444444444444
+        },
+        "lieu": "Villiers-sur-Orge",
+        "horodatage de création": "2025:07:05 18:57:39",
+        "date": "05/07/2025",
+        "heure": "18:57:39"
+    },
+    {
+        "label": "202507_3_IMG_1930_Lres.png",
+        "largeur": 450,
+        "hauteur": 600,
+        "résolution": "71x71 dpi",
+        "taille": "402.94 KB",
+        "position GPS": {
+            "lat": 48.86103333333333,
+            "lon": 2.114127777777778
+        },
+        "lieu": "Louveciennes",
+        "horodatage de création": "2025:07:18 14:07:47",
+        "date": "18/07/2025",
+        "heure": "14:07:47"
+    },
+    {
+        "label": "202507_4_IMG_1931_Lres.png",
+        "largeur": 800,
+        "hauteur": 600,
+        "résolution": "71x71 dpi",
+        "taille": "582.18 KB",
+        "position GPS": {
+            "lat": 48.86105833333333,
+            "lon": 2.1140333333333334
+        },
+        "lieu": "Louveciennes",
+        "horodatage de création": "2025:07:18 14:07:59",
+        "date": "18/07/2025",
+        "heure": "14:07:59"
+    },
+    {
+        "label": "202507_5_IMG_1932_Lres.png",
+        "largeur": 450,
+        "hauteur": 600,
+        "résolution": "71x71 dpi",
+        "taille": "577.46 KB",
+        "position GPS": {
+            "lat": 48.8586,
+            "lon": 2.111452777777778
+        },
+        "lieu": "Louveciennes",
+        "horodatage de création": "2025:07:18 15:07:09",
+        "date": "18/07/2025",
+        "heure": "15:07:09"
+    }
+]
